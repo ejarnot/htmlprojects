@@ -1,28 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Emelia Jarnot Resume</title>
+    <meta name = "Learning Web Development" content = "I develop web pages!"/>
+    <meta charset = "UTF-8"/>
+    <meta name = "viewport" content = "width=device-width initial-scale=1.0"/>
+  </head>
+  <body>  
     <header>
-      <h1>Emelia Jarnot</h1>
-      <image src = "selfie1.jpg" width = "200"/>
+      <nav>
+        <ul>
+          <li>
+            <a href = "#summary">Summary</a>
+          </li>
+          <li>
+            <a href = "#contact">Contact</a>
+          </li>
+          <li>
+            <a href = "#experience">Experience</a>
+          </li>
+          <li>
+            <a href = "#education">Education</a>
+          </li>
+        </ul>
+      </nav>
     </header>
+    <main>
+    <h1>Emelia Jarnot</h1>
+    <image src = "selfie1.jpg" alt = "Picture of Emelia Jarnot" width = "200"/>
+    <section id="summary">
       <h2>Summary</h2>
-      <p>Student in Web Development. Will be fluent in Html, CSS, Javascript, React, SQL, and Node.js.</p>  
-   </head>
-   <body>  
-     <main> 
+      <p>Student in Web Development. Will be fluent in Html, CSS, Javascript, React, SQL, and Node.js.</p>
+    </section>
+    <section id="contact" class="content container">  
       <h3>Contact</h3>
-      <ol>
-        <ul><strong>Phone: </strong>425-387-2867</ul>
-        <ul><strong>Email: </strong>ejarnot42@outlook.com</ul>
-      </ol>
+        <ul>
+          <li><strong>Phone: </strong><a href = "tel:425-387-2867">425-387-2867</a></li>
+          <li><strong>Email: </strong><a href = "mailto:ejarnot42@outlook.com">ejarnot42@outlook.com</a></li>
+        </ul>
+    </section>
+    <section id="experience">
       <h4>Experience</h4>
       <p>Currently don't have much experience, but I'm so excited to learn!</p>
+    </section>
+    <section id="education">
       <h5>Education</h5>
-      <p><ol>
-          <ul>TrueCoders Web Development</ul>
-          <ul>Willamette University BA in Sociology</ul>
-      </ol></p>
+      <p>
+        <ul>
+          <li>TrueCoders Web Development</li>
+          <li>Willamette University BA in Sociology</li>
+        </ul>
+      </p>
+    </section>
      </main>
+    <footer>
+      <h3>Follow Me On:</h3>
+    </footer>
   </body>
 </html>
