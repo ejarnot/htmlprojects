@@ -1,0 +1,36 @@
+a:hover{
+    color:gray;
+}
+.nobullets{
+    list-style-type: none;
+}
+.nav-link li{
+    display:inline;
+    margin: 0 10px 0 10px;
+}
+header{
+    top:0;
+    position:sticky;
+    padding:1px;
+    background-color: white;
+    z-index: 1;
+}
+section{
+    background-color: aquamarine;
+}
+p,
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width:auto;
+    margin:0 50px 0 50px;
+    max-width: 600px;
+}
