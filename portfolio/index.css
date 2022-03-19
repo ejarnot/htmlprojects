@@ -16,9 +16,6 @@ header{
     border-bottom: dashed black;
     background-color:lavender
 }
-section{
-    background-color: aquamarine;
-}
 p,
 li{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -36,7 +33,9 @@ body{
     margin:0 50px 0 50px;
     max-width: 600px;
 }
-.center{
+.center,
+h1,
+h2{
   display: block;
   margin-left: auto;
   margin-right: auto;
